@@ -1,0 +1,27 @@
+{
+  "name": "components",
+  "version": "1.0.0",
+  "description": "基于antd的业务组件，对antd组件的优化或拼装",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1091214370/components.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "1091214370@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1091214370/components/issues"
+  },
+  "homepage": "https://github.com/1091214370/components#readme",
+  "devDependencies": {
+    "antd": "^3.11.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3"
+  }
+}
