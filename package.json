@@ -19,9 +19,16 @@
     "url": "https://github.com/1091214370/components/issues"
   },
   "homepage": "https://github.com/1091214370/components#readme",
-  "devDependencies": {
+  "dependencies": {
     "antd": "^3.11.0",
     "prop-types": "^15.6.2",
     "react": "^16.6.3"
+  },
+  "devDependencies": {
+    "css-loader": "^2.0.0",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
   }
 }
