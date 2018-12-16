@@ -1,7 +1,7 @@
 {
-  "name": "components",
+  "name": "bcbc",
   "version": "1.0.0",
-  "description": "基于antd的业务组件，对antd组件的优化或拼装",
+  "description": "Base Common Business Components 基于antd的业务组件，对antd组件的优化或拼装",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

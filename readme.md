@@ -1,7 +1,7 @@
 ## 安装说明
-使用`npm install --save`安装，并在使用时引入。
+使用`npm install bcbc --save`安装，并在使用时引入。
 ```
-import {  } from '';
+import { input } from 'bcbc';
 ```
 ## 更新日志
 ### 1.0.0 ---- 增加Input组件，提供trim能力和clear能力
