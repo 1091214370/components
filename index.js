@@ -1,2 +1,1 @@
-
-export { default as Input } from './src/components/Input/index';
+export { default as Input } from './dist/components/Input/index';
