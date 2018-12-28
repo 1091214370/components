@@ -35,6 +35,6 @@ clearbtn | 设置组件是否开启清空输入按钮,不可与antd Input的suff
 
 
 // 关闭清除按钮(默认关闭)
- <Input clearbtn={false} />
+ <Input clearbtn="false" />
  <Input />
 ```
