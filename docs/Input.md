@@ -3,7 +3,7 @@
 参数 | 说明 | 类型 | 默认值
 ---|--- | ---| ---
 trim | 设置组件如何处理空白字符，可选`both`、`all`、`none` | string | 'both'
-clearbtn | 设置组件是否开启清空输入按钮,不可与antd Input的suffix同时使用，否则会导致suffix无效 | string | 'false'
+clearBtn | 设置组件是否开启清空输入按钮,不可与antd Input的suffix同时使用，否则会导致suffix无效 | bool | false
 ----
 #### trim字段说明
  * both: 去除字符串两端空白字符（默认开启）
@@ -28,13 +28,14 @@ clearbtn | 设置组件是否开启清空输入按钮,不可与antd Input的suff
   // 不清除空白字符
  <Input trim="none" />
  ```
-#### clearbtn
+#### clearBtn
 ```
 // 开启清除按钮
- <Input clearbtn="true" />
+ <Input clearBtn />
+  <Input clearBtn={true} />
 
 
 // 关闭清除按钮(默认关闭)
- <Input clearbtn="false" />
+ <Input clearBtn={false} />
  <Input />
 ```
