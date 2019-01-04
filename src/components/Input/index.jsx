@@ -87,7 +87,7 @@ export default class LocalInput extends Component {
       onPressEnter: e => this.pressEnter(e),
       onChange: e => this.change(e),
     };
-    if ('clearBtn' in this.props && this.props.clearBtn) {
+    if ('clearbtn' in this.props && this.props.clearbtn !== 'false') {
       localProps = {
         ...localProps,
         suffix: (value || defaultValue) && <Icon
@@ -107,9 +107,7 @@ export default class LocalInput extends Component {
 }
 
 LocalInput.propTypes = {
-  clearBtn: PropTypes.bool,
-  value: PropTypes.string,
-  defaultValue: PropTypes.string,
+  clearbtn: PropTypes.string,
   trim: PropTypes.string,
   onBlur: PropTypes.func,
   onFocus: PropTypes.func,
