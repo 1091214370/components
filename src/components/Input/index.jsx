@@ -7,7 +7,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Input from 'antd/lib/input';
 import { Icon } from 'antd';
-import styles from '../style/index.css';
+import '../style/index.css';
 
 export default class LocalInput extends Component {
   constructor(props) {
@@ -98,7 +98,7 @@ export default class LocalInput extends Component {
         />
         {flag && <Icon
           type="close-circle"
-          className={styles.clearIcon}
+          className="clearIcon"
           onClick={this.clearValue}
         />}
       </div>
