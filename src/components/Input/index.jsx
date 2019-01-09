@@ -7,7 +7,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Input from 'antd/lib/input';
 import { Icon } from 'antd';
-import styles from '../style/index.less';
+import styles from '../style/index.css';
 
 export default class LocalInput extends Component {
   constructor(props) {
