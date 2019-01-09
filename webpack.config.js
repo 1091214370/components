@@ -11,6 +11,10 @@ module.exports = {
      test: /\.(js|jsx)$/,
      use: "babel-loader?presets[]=react,presets[]=es2015",
      exclude: /node_modules/
+   },
+   {
+     test: /\.(css|less)$/,
+     use: ['style-loader', 'css-loader', 'less-loader'],
    }]
  },
  resolve: {
