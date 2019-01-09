@@ -4,7 +4,7 @@
 import { input } from 'bcbc';
 ```
 ## 更新日志
-### 1.0.6 ---- 解决输入框输入一个字符后失去焦点的问题，兼容allowClear属性，allowClear存在时，clearbtn无效
+### 1.0.7 ---- 解决输入框输入一个字符后失去焦点的问题，兼容allowClear属性，allowClear存在时，clearbtn无效
 
 ### 1.0.0 ---- 增加Input组件，提供trim能力和clear能力
 ## 业务组件
