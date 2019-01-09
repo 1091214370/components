@@ -1,6 +1,6 @@
 {
   "name": "bcbc",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Base Common Business Components 基于antd的业务组件，对antd组件的优化或拼装",
   "main": "dist/index.js",
   "scripts": {
