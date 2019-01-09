@@ -89,7 +89,7 @@ export default class LocalInput extends Component {
       onPressEnter: e => this.pressEnter(e),
       onChange: e => this.change(e),
     };
-    const flag = !('allowClear' in this.props) && 'clearbtn' in this.props && (value || defaultValue);
+    const flag = !('allowClear' in this.props) && 'clearbtn' in this.props && this.props.clearbtn !=='false' && (value || defaultValue);
     return (
       <div style={{ position: 'relative' }}>
         <Input
